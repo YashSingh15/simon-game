@@ -3,7 +3,8 @@ body {
   background-color: #011F3F;
 }
 
-#level-title {
+#level-title,
+.final-score {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin: 5%;
@@ -50,11 +51,4 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
-}
-
-.final-score {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin: 5%;
-  color: #FEF2BF;
 }
