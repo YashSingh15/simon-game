@@ -61,6 +61,7 @@ function startOver() {
 
 $(document).keydown(function () {
     if (level === 0) {
+        $('.final-score').remove();
         nextSequence();
     }
 })
