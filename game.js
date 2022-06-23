@@ -87,6 +87,8 @@ $('.btn').click(function () {
 
         $('h1').text('Game Over, Press Any Key to Restart');
 
+        $('.container').after(`<h1 class="final-score">Final Score: ${level}</h1>`);
+
         startOver();
     }
 })
